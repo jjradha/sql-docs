@@ -53,7 +53,7 @@ sp_helpuser [ [ @name_in_db = ] 'security_account' ]
 |**DefDBName**|**sysname**|Default database of **UserName**.|  
 |**DefSchemaName**|**sysname**|Default schema of the database user.|  
 |**UserID**|**smallint**|ID of **UserName** in the current database.|  
-|**SID**|**smallint**|User security identification number (SID).|  
+|**SID**|**varbinary(85)**|User security identification number (SID).|  
   
  The following table shows the result set when no user account is specified and aliases exist in the current database.  
   
